@@ -1,4 +1,4 @@
-# Design patterns 
+# Patterns
 
 ## Introduction
 
@@ -8,7 +8,7 @@ When developing an application or system, **design patterns** are the best, esta
 
 **Design patterns** are solutions to recurring problems; guidelines on how to tackle certain problems. They are not classes, packages or libraries that you can plug into your application and wait for the magic to happen.
 
-😶⬆ Heads up
+### 😶⬆ Heads up
 
 - **Design patterns aren't a panacea** 
 - Do not try to compel them; if you do, awful things are bound to happen.
@@ -16,10 +16,32 @@ When developing an application or system, **design patterns** are the best, esta
 
 ## Objectives
 
-- You want to improve **how** you develop
-- You wish you could have clear criteria for determining how to improve a software design proposal.
+- **You** want to improve **how** you develop
+- **You** wish you could **have clear criteria for determining how to improve a software design proposal.**
+- **You**  ![Don't need to reinvent the wheel](static/img/wheel.jpg)
 
-## Getting started
+## Table of Contents
+1. [Design principles](01-principles/README.md)
+2. [Design patterns: creational](02-creational/README.md)
+3. [Design patterns: behavioral](03-behavioral/README.md)
+4. [Design patterns: structural](04-structural/README.md)
+
+## Getting started 
+
+### Design patterns **advantages** 
+  - They are reusable and can be used in multiple projects.
+  - They provide template solutions.
+  - They provide transparency to software design.
+  - They are well-tested and proven means of developing robust solutions effortlessly.
+
+### Design pattern vs design principles
+  - ❓
+  
+### Design pattern vs architecture style
+  - ❓ 
+
+### Design pattern vs architecture pattern 🤔
+  - ❓
 
 - [] Design pattern vs architecture 🤔
 
