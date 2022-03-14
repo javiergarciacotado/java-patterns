@@ -42,8 +42,7 @@ When developing an application or system, **design patterns** are the best, esta
 
 ### Design pattern vs architecture pattern 🤔
   - ❓
-
-- [] Design pattern vs architecture 🤔
+  
 
 ## Resources
 
