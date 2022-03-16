@@ -16,4 +16,4 @@ buildNumber.properties
 
 # Distributable
 *.jar
-target/**
+**/target/**

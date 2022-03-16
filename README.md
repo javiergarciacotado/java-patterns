@@ -21,28 +21,69 @@ When developing an application or system, **design patterns** are the best, esta
 - **You**  ![Don't need to reinvent the wheel](static/img/wheel.jpg)
 
 ## Table of Contents
-1. [Design principles](01-principles/README.md)
-2. [Design patterns: creational](02-creational/README.md)
-3. [Design patterns: behavioral](03-behavioral/README.md)
-4. [Design patterns: structural](04-structural/README.md)
+1. [Design principles](01-design-principles/README.md)
+2. [Design patterns: creational](02-design-patterns-creational/README.md)
+3. [Design patterns: behavioral](03-design-patterns-behavioral/README.md)
+4. [Design patterns: structural](04-design-patterns-structural/README.md)
 
 ## Getting started 
 
-### Design patterns **advantages** 
+### Architecture style
+
+Architectural styles tell us how to organise our code.
+
+Examples:
+
+- Component-based
+- Monolithic application
+- Layered
+- Pipes and filters
+- Event-driven
+- Publish-subscribe
+- Plug-ins
+- Client-server
+- Service-oriented
+
+### Architecture pattern
+
+They solve the problems related to the Architectural Style.
+
+Examples:
+
+- Three-tier 
+- kernel 
+- Model-View-Controller
+
+### Design principles
+
+Best practices to follow.
+
+Examples:
+
+- SOLID
+- KISS
+- YAGNI
+
+### Design patterns
+
+They impact on a specific section of the code base
+
+Examples:
+
+- Builder
+- Adapter
+- Mediator
+
+#### Design patterns **advantages** 
+
   - They are reusable and can be used in multiple projects.
   - They provide template solutions.
   - They provide transparency to software design.
   - They are well-tested and proven means of developing robust solutions effortlessly.
 
-### Design pattern vs design principles
-  - ❓
-  
-### Design pattern vs architecture style
-  - ❓ 
+### Summary
 
-### Design pattern vs architecture pattern 🤔
-  - ❓
-  
+It's all about the scope!
 
 ## Resources
 
