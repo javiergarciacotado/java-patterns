@@ -7,6 +7,7 @@ import com.owned.design.principles.solid.dependency_inversion.weird.example_1.do
 import java.math.BigDecimal;
 import java.util.Optional;
 
+//TODO 16/03/22 - Apply pattern
 public class AccountCreatorService {
 
     private InMemoryBankAccountRepository inMemoryBankAccountRepository = new InMemoryBankAccountRepository();

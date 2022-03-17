@@ -2,7 +2,6 @@ package com.owned.design.principles.solid.dependency_inversion.weird.example_1.a
 
 import com.owned.design.principles.solid.dependency_inversion.weird.example_1.domain.BankAccount;
 
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
