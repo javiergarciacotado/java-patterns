@@ -14,9 +14,9 @@ import java.util.List;
 @RequiredArgsConstructor
 public class BankAccountWeirdController {
 
-    private final ListBankAccounts listBankAccounts;
-    private final LoadBankAccount loadBankAccount;
-    private final CreateBankAccountUseCase createBankAccountUseCase;
+    private final ListWeirdBankAccounts listWeirdBankAccounts;
+    private final LoadWeirdBankAccount loadWeirdBankAccount;
+    private final CreateWeirdBankAccountUseCase createWeirdBankAccountUseCase;
 
     @GetMapping("/accounts")
     public List<BankAccountDTO> list() {
@@ -39,14 +39,14 @@ public class BankAccountWeirdController {
 
 }
 
-interface LoadBankAccount {
+interface LoadWeirdBankAccount {
     //Write some operations
 }
 
-interface ListBankAccounts {
+interface ListWeirdBankAccounts {
     //Write some operations
 }
 
-interface CreateBankAccountUseCase {
+interface CreateWeirdBankAccountUseCase {
     //Write some operations
 }
