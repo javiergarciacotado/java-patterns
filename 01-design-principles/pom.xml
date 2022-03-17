@@ -43,6 +43,12 @@
             <artifactId>assertj-core</artifactId>
             <scope>test</scope>
         </dependency><!-- assertj -->
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <scope>test</scope><!--mockito-->
+        </dependency>
     </dependencies>
 
 </project>
