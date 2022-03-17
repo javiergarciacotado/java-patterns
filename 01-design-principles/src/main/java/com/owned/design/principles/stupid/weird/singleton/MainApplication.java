@@ -14,7 +14,7 @@ final class MainApplication {
          * check its client usage
          *
          * */
-        final ExampleServiceCallingJdbcConnection exampleServiceCallingJdbcConnection = new ExampleServiceCallingJdbcConnection(JdbcConnectionV1.getInstance());
+        final ExampleServiceUsingJdbcConnection exampleServiceUsingJdbcConnection = new ExampleServiceUsingJdbcConnection(JdbcConnectionV1.getInstance());
 
 
         /**
@@ -36,10 +36,5 @@ final class MainApplication {
          * Wait ... we will refactor as Effective Java says ...
          * @see JdbcConnectionV3
          */
-
-
-
-
-
     }
 }

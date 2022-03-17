@@ -11,7 +11,7 @@ public class JdbcConnectionV1 {
 
     private JdbcConnectionV1() {}
 
-    public static synchronized JdbcConnectionV1 getInstance() {
+    public static JdbcConnectionV1 getInstance() {
         if(INSTANCE == null){
             INSTANCE = new JdbcConnectionV1();
         }
