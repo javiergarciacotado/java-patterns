@@ -1,5 +1,6 @@
 package com.owned.design.principles.solid.open_closed.weird.example_2;
 
+//TODO 16/03/2022 - To refactor
 public final class PaymentGateway {
 
     // switch and if-elseif-elseif-else are devil!
