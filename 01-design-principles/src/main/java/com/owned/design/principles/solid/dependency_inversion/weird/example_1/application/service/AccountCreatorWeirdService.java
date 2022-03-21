@@ -1,4 +1,4 @@
-package com.owned.design.principles.solid.dependency_inversion.weird.example_1.application;
+package com.owned.design.principles.solid.dependency_inversion.weird.example_1.application.service;
 
 import com.owned.design.principles.solid.dependency_inversion.weird.example_1.adapter.out.InMemoryBankAccountRepository;
 import com.owned.design.principles.solid.dependency_inversion.weird.example_1.application.command.BankAccountCreatorCommand;
@@ -7,8 +7,7 @@ import com.owned.design.principles.solid.dependency_inversion.weird.example_1.do
 import java.math.BigDecimal;
 import java.util.Optional;
 
-//TODO 16/03/22 - Apply pattern
-public class AccountCreatorService {
+public class AccountCreatorWeirdService {
 
     private InMemoryBankAccountRepository inMemoryBankAccountRepository = new InMemoryBankAccountRepository();
 

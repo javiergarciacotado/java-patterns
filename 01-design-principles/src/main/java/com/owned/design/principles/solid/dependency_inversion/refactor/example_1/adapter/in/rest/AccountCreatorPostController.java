@@ -1,7 +1,7 @@
-package com.owned.design.principles.solid.dependency_inversion.weird.example_1.adapter.in.rest;
+package com.owned.design.principles.solid.dependency_inversion.refactor.example_1.adapter.in.rest;
 
-import com.owned.design.principles.solid.dependency_inversion.weird.example_1.application.command.BankAccountCreatorCommand;
-import com.owned.design.principles.solid.dependency_inversion.weird.example_1.application.service.AccountCreatorWeirdService;
+import com.owned.design.principles.solid.dependency_inversion.refactor.example_1.application.command.BankAccountCreatorCommand;
+import com.owned.design.principles.solid.dependency_inversion.refactor.example_1.application.service.AccountCreatorService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,12 +11,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.InputStream;
+import java.math.BigDecimal;
 
 @RestController
 @RequiredArgsConstructor
 public class AccountCreatorPostController {
 
-    private final AccountCreatorWeirdService accountCreatorWeirdService; //out of scope
+    private final AccountCreatorService accountCreatorService; //out of scope
 
     @PostMapping("/account/{id}")
     public ResponseEntity<String> create(@PathVariable String id, @RequestBody InputStream inputStream) { //Maybe better to set InputStream
@@ -24,7 +25,7 @@ public class AccountCreatorPostController {
         //convert InputStream to BankAccountDTO
 
         //convert BankAccountDTO to BankAccountCommand
-        accountCreatorWeirdService.create(new BankAccountCreatorCommand(id));
+        accountCreatorService.create(new BankAccountCreatorCommand(id, "", BigDecimal.ZERO));
 
         return new ResponseEntity<>("whatever", HttpStatus.CREATED);
 
