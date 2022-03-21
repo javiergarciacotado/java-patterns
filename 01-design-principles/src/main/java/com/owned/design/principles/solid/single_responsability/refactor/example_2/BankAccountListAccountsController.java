@@ -20,4 +20,4 @@ final class BankAccountListAccountsController {
     }
 }
 
-    interface ListBankAccounts {}
+interface ListBankAccounts {}

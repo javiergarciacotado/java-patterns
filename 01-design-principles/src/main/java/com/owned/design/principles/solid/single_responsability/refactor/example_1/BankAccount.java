@@ -5,7 +5,7 @@ import lombok.Value;
 import java.math.BigDecimal;
 
 @Value
-final class BankAccount {
+class BankAccount {
 
     String id;
     String name;
