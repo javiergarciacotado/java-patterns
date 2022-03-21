@@ -1,7 +1,7 @@
 package com.owned.design.principles.solid.interface_segregation.weird.example_1;
 
 /**
- * Forcing its interface implementations to develop a body
+ * Forcing its interface clients to develop a body
  */
 public interface BankAccountWeirdNotifications {
 
