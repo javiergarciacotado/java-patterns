@@ -6,7 +6,7 @@ import com.owned.design.principles.solid.dependency_inversion.refactor.example_1
 
 import java.util.Optional;
 
-public final class AccountCreatorService {
+public final class  AccountCreatorService {
 
     private final BankAccountRepository bankAccountRepository;
 
