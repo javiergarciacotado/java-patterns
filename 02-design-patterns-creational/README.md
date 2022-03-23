@@ -48,6 +48,11 @@ TBD #really?
     Consider static factory methods instead of constructors
 ```
 
+### When to use it
+
+- Production code: whenever we would improve the semantics of our class
+- Testing:  https://ecararus.github.io/BuilderVsObjectMother/
+
 ### Abstract factory
 
 **Produce families of related objects without specifying their concrete classes.**
@@ -55,7 +60,7 @@ TBD #really?
 #### When to use it
 
 - You don’t want to modify existing code when adding new families of instances to the program.
-- This constraint must be enforced since the family of related product objects is meant to be utilized together.
+- This constraint must be enforced since the family of related bankProduct objects is meant to be utilized together.
 
 #### Resources
 
